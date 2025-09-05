@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IV Drug Reference – Typeahead</title>
+  <meta name="description" content="ค้นหาข้อมูลยาฉีด: วิธีเตรียม ข้อควรระวัง ทางให้ยา และตัวทำละลาย" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="wrap">
+      <h1>IV Drug Reference</h1>
+      <p class="sub">พิมพ์ชื่อยา แล้วเลือกจากรายการ</p>
+      <div class="search-wrap">
+        <input id="search" type="text" placeholder="ค้นหาด้วยชื่อยา / รหัสยา / ข้อบ่งใช้..." autocomplete="off" />
+        <div id="suggestions" class="suggestions" role="listbox" aria-label="Search suggestions"></div>
+      </div>
+      <div class="chip-row">
+        <button class="chip" data-q="IV infusion">IV infusion</button>
+        <button class="chip" data-q="IV direct">IV direct</button>
+        <button class="chip" data-q="IM">IM</button>
+        <button class="chip" data-q="Anaphylaxis">Anaphylaxis</button>
+        <button class="chip" data-q="Potassium">Potassium</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article id="drug-card" class="card hidden" aria-live="polite"></article>
+    <section id="empty" class="muted">
+      <p>เริ่มพิมพ์ชื่อยาด้านบนเพื่อค้นหา หรือกดชิพคำแนะนำ</p>
+    </section>
+  </main>
+
+  <footer class="app-footer wrap">
+    <small>สำหรับใช้งานด้านข้อมูลยาเท่านั้น โปรดอ้างอิงคำสั่งแพทย์และแนวทางของสถานพยาบาล</small>
+  </footer>
+
+  <script>window.__BUILD__ = { version: "1.0.0" };</script>
+  <script src="js/app.js"></script>
+</body>
+</html>
