@@ -113,7 +113,7 @@ function setupSuggestions(){
 
 async function boot(){
   try{
-    const res = await fetch("data/drugs.json", {cache:"no-store"});
+    const res = await fetch("drugs.json", {cache:"no-store"});
     const payload = await res.json();
     state.drugs = Array.isArray(payload) ? payload : (payload.drugs || []);
   }catch(e){
