@@ -75,7 +75,9 @@
       }
     },
     "notes": "1. ไม่ควรผสมหรือฉีดพร้อมกับยาอื่น\n2. เก็บยาที่เจือจางแล้วในตู้เย็นได้ 60 วัน, ที่อุณหภูมิห้องได้ 24 hr",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Aminophylline (250 mg/10 ml)",
@@ -361,7 +363,9 @@
       }
     },
     "notes": "ยาที่ recon หรือ dilute แล้ว มีความคงตัว 24 hr ที่อุณหภูมิห้อง",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Ceftazidime/Avibactam (Zavicefta inj.)",
@@ -1126,7 +1130,9 @@
       }
     },
     "notes": "- เก็บที่อุณหภูมิต่ำกว่า 30°C \n- เมื่อละลาย Fosmicin สำหรับหยดในตัวทำละลาย จะเกิดการคายความร้อนออกมา ซึ่งไม่มีผลเสียต่อยาหรือฤทธิ์ของยา ดังนั้นจึงไม่ต้องมีความกังวลในเรื่องดังกล่าว                           - หลังการให้ยาอาจเกิดหลอดเลือดดำอักเสบและอาการปวดในเส้นเลือด \n- ควรระมัดระวังในการให้ยานี้แก่ผู้ป่วยที่จำเป็นต้องลดปริมาณโซเดียมที่เข้าสู่ร่างกา เนื่องจากหัวใจล้มเหลว ไตล้มเหลว เป็นต้น",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Filgrastim 300 mcg/1ml (Neutromax ® )",
@@ -1308,7 +1314,9 @@
       }
     },
     "notes": "1. กรณีให้ยานานกว่า 10 วันควรระวังการเกิดพิษต่อไตและการได้ยิน  \n2. หลังผสมแล้วยามีความคงตัว 24 hr ที่อุณหภูมิห้อง",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Glyceryl trinitrate (NTG) (50 mg/10 ml)",
@@ -1783,7 +1791,9 @@
       }
     },
     "notes": "1. ความคงตัวหลัง dilute อุณหภูมิห้องนาน 72 hr และ 2-8 C นาน 14 day",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Lincomycin Hydrochloride (600 mg/ 2 ml)",
@@ -2907,7 +2917,9 @@
       }
     },
     "notes": "1. ผสมแล้วควรมีสีเหลืองหรือส้ม   \n2. หลัง recon เก็บที่อุณหภูมิห้องใน vial ได้  6 hr หรือเก็บที่อุณหภูมิห้องใน IV bag ได้ 24 hr ความคงตัวเมื่อเก็บในตู้เย็นได้ 48 hr",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Tramadol (100 mg/2 ml)",
