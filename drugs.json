@@ -465,7 +465,9 @@
       }
     },
     "notes": "1. ไม่ควรผสมร่วมกับ Aminoglycosides โดยตรง\n2. ฉีด Vitamin K IM 10 mg/wk เพื่อป้องกันภาวะ thrombocytopenia",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Chlorpheniramine (10 mg/ 1 ml)",
@@ -621,7 +623,9 @@
       }
     },
     "notes": "ยาที่ recon หรือ dilute แล้วควรใช้ทันทีหลังเตรียมเสร็จ",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Dantrolene inj (20 mg)",
@@ -648,7 +652,8 @@
     },
     "notes": "ควรใช้ยาภายใน 6 hr หลัง recon",
     "warnings": [],
-    "pdf": "dantrolene.pdf"
+    "pdf": "dantrolene.pdf",
+    "pdf_label": "Dantrolene pdf"
   },
   {
     "name": "Desferrioxamine 500 mg (Desferal®)",
@@ -1618,7 +1623,9 @@
     },
     "notes": "",
     "warnings": [],
-    "pdf": "hypercrit.pdf"
+    "pdf": "hypercrit.pdf",
+    "pdf_label": "Hypercrit pdf"
+    
   },
   {
     "name": "Imipenem+Cilastatin (imipenem 500 mg+cilastatin 500 mg/vial)",
@@ -1644,7 +1651,9 @@
       }
     },
     "notes": "1. ความคงตัวหลัง dilute อุณหภูมิห้องนาน 4 hr และ 2-8 C นาน 24 hr\n2. 1 vial ห้ามผสมสารน้ำน้อยกว่า 100 ml เพราะจะทำให้ตกตะกอน",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Kanamycin Sulfate (1 g/vial)",
@@ -1852,7 +1861,9 @@
       }
     },
     "notes": "-",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Methylergometrine maleate (methylergonovine maleate) (0.2mg/ml)",
@@ -2554,7 +2565,9 @@
       }
     },
     "notes": " 1.หลังจากผสมแล้วควรใช้ยาในทันที\n2.ความคงตัวหลัง recon ที่อุณหภูมิ 2-8 °C นาน 48 hr\n3.ความคงตัวหลัง dilute ที่อุณหภูมิห้องคงตัวนาน24 hr",
-    "warnings": []
+    "warnings": [],
+    "pdf": "antibiotic.pdf",
+    "pdf_label": "Antibiotic pdf"
   },
   {
     "name": "Potassium chloride (KCl inj) (1 amp = 20 mEq/10 ml)",
@@ -2711,7 +2724,8 @@
     },
     "notes": "1. เมื่อเปิดใช้แล้วให้ทิ้งยาเลยไม่ว่าจะเหลือหรือไม่ก็ตาม",
     "warnings": [],
-    "pdf": "recormon.pdf"
+    "pdf": "recormon.pdf",
+    "pdf_label": "Recormon pdf"
   },
   {
     "name": "Streptokinase (1.5 mU)",
@@ -2972,7 +2986,8 @@
     },
     "notes": "1. แนะนำผสมกับ D5W \n2. ความคงตัวหลัง dilute 6 hr",
     "warnings": [],
-    "pdf": "cotrimoxazole.pdf"
+    "pdf": "cotrimoxazole.pdf",
+    "pdf_label": "Bactrim pdf"
   },
   {
     "name": "Vancomycin 500 mg",
