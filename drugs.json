@@ -3027,7 +3027,7 @@
     "notes": "1. ถ้าให้ 1 vial: 100 ml drip อย่างน้อย 1 hr\n2. ถ้าให้ 2 vial: 200-250 ml drip อย่างน้อย 2 hr เพื่อป้องกัน red man syndrome\n3. หลัง recon เก็บได้ นาน 7 วันที่ 25 ๐C และในตู้เย็นเก็บได้ 14 วัน",
     "warnings": [],
     "pdfs": [
-      { "file": "vancomycin oral administration.pdf", "label": "Vancomycin oral" }
+      { "file": "vancomycin oral administration.pdf", "label": "Vancomycin oral" },
       { "file": "antibiotic.pdf", "label": "Antibiotic pdf" }
     ]
   },
