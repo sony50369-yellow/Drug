@@ -103,7 +103,7 @@ function renderCard(d){
 
   card.innerHTML = `
     <h2>${d.name||'-'}</h2>
-    <div class="meta">รหัส: ${d.code||'-'} ${renderPdfButton(d)}</div>
+    <div class="meta">รหัส: ${d.code||'-'} ${renderPdfBtn(d)}</div>
     <div class="badges">${badges}</div>
     <div class="card-section"><span class="section-title">ข้อบ่งใช้</span><div>${nl2br(onlyNonEmpty(d.indication))||'-'}</div></div>
     <div class="card-section"><span class="section-title">สารทำละลาย</span><div>${nl2br(onlyNonEmpty(d.diluents))||'-'}</div></div>
