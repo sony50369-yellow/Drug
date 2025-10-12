@@ -117,5 +117,40 @@ function renderCard(d){
     dil.innerHTML = `<option value="">เลือกจากการ์ดยา</option>` + Array.from(opts).map(o=>`<option>${o}</option>`).join('');
   }
 }
+function renderPdfButtons(d){
+  if(!d) return '';
+  var items = [];
+
+  // เดิม: รองรับ pdf แบบเดี่ยว (string หรือ {file,label})
+  if(d.pdf){
+    var href = (typeof d.pdf === 'string') ? d.pdf : (d.pdf && d.pdf.file);
+    var label = d.pdf_label ? d.pdf_label :
+                ((typeof d.pdf === 'object' && d.pdf && d.pdf.label) ? d.pdf.label : 'PDF');
+    if(href) items.push({file: href, label: label});
+  }
+
+  // ใหม่: รองรับ pdfs เป็น array (string หรือ {file,label})
+  if(Array.isArray(d.pdfs)){
+    d.pdfs.forEach(function(p){
+      if(typeof p === 'string'){
+        items.push({file: p, label: 'PDF'});
+      }else if(p && p.file){
+        items.push({file: p.file, label: p.label || 'PDF'});
+      }
+    });
+  }
+
+  if(!items.length) return '';
+  var icon = '&#128196; '; // 📄
+  return items.map(function(it){
+    try{
+      var url = encodeURI(it.file);
+      return '<a class="pdf-btn" href="'+url+'" target="_blank" rel="noopener">'+icon+it.label+'</a>';
+    }catch(e){
+      return '<a class="pdf-btn" href="'+it.file+'" target="_blank" rel="noopener">'+icon+it.label+'</a>';
+    }
+  }).join(' ');
+}
+
 
 load();
