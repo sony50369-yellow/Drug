@@ -1,0 +1,66 @@
+
+:root{
+  --bg:#f8fbff;
+  --card:#ffffff;
+  --ink:#1f2937;
+  --muted:#6b7280;
+  --accent:#6d28d9;
+  --chip:#eef2ff;
+  --ok:#16a34a;
+  --no:#dc2626;
+  --na:#9ca3af;
+  font-size:16px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+header{max-width:880px;margin:28px auto 0;padding:0 16px;text-align:center}
+h1{margin:0 0 16px}
+#search{width:100%;max-width:880px;margin:0 auto;display:block;padding:14px 16px;border-radius:12px;border:1px solid #d1d5db;text-align:left}
+.suggestions{max-width:880px;margin:8px auto 0;text-align:left}
+.suggestion{padding:10px 12px;background:var(--card);border:1px solid #e5e7eb;border-radius:10px;margin:6px 0;cursor:pointer}
+.suggestion mark{background:#fff3b0}
+main{max-width:880px;margin:12px auto;padding:0 16px}
+.card{background:var(--card);border:1px solid #e5e7eb;border-radius:16px;padding:18px;margin:18px auto}
+.hidden{display:none}
+.meta{color:var(--muted);font-size:0.9rem;margin-bottom:8px}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0}
+.badge{padding:4px 8px;border-radius:999px;background:var(--chip);font-size:0.85rem}
+.badge.ok{background:#ecfdf5;color:var(--ok)} .badge.no{background:#fef2f2;color:var(--no)} .badge.na{background:#f3f4f6;color:var(--na)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+label{display:flex;flex-direction:column;gap:6px;font-size:0.9rem}
+input,select,button{padding:10px 12px;border-radius:10px;border:1px solid #d1d5db}
+button{background:var(--accent);color:#fff;border:none}
+.section-title{margin:10px 0 6px;font-weight:700}
+ul{padding-left:18px}
+footer{max-width:880px;margin:12px auto 30px;color:var(--muted);font-size:0.85rem;text-align:center}
+
+#suggestions{position:relative;}
+#suggestions .suggestion{cursor:pointer}
+
+
+/* spacing + readability */
+.section-title{ display:block; font-weight:600; margin-bottom:4px; }
+.card-section{ margin-top:16px; }
+#card{ line-height:1.55; }
+#suggestions .suggestion{ cursor:pointer; }
+
+
+
+/* PDF button (green pastel) */
+.pdf-btn{
+  display:inline-block;
+  margin-left:8px;
+  padding:3px 8px;
+  font-size:0.9rem;
+  background:#e8f8ee;
+  border:1px solid #bfe8cf;
+  border-radius:8px;
+  text-decoration:none;
+  color:#1c7c47;
+  line-height:1.2;
+}
+.pdf-btn:hover{
+  background:#d9f3e5;
+  border-color:#aee2c4;
+  color:#166b3d;
+}
